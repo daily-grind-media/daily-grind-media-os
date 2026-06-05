@@ -671,7 +671,7 @@ const sections = {
             { item:"Networking Event",        price:"$47–$97/ticket", note:"30–60 people target, DGM brand-builds" },
             { item:"Creator Membership — Creator", price:"$297/mo", note:"2 sessions, raw files" },
             { item:"Creator Membership — Pro",     price:"$497/mo", note:"4 sessions, raw + 1 edit" },
-            { item:"Creator Membership — Authority","$797/mo", note:"6 sessions + editing + strategy call" },
+            { item:"Creator Membership - Authority", price:"$797/mo", note:"6 sessions + editing + strategy call" },
           ].map((p,i)=>(
             <div key={i} style={{ display:"grid", gridTemplateColumns:"220px 140px 1fr", gap:12, padding:"7px 0", borderBottom:i<10?"1px solid #141414":"none" }}>
               <span style={{ color:"#d0d0d0", fontSize:12 }}>{p.item}</span>
